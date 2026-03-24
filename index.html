@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>carousel</title>
+  <link rel="stylesheet" href="css_files/style.css" />
+</head>
+<body>
+
+  <main class="app">
+    <section class="carousel-scene">
+
+      <!-- Caixa que recebe a escala automática -->
+      <div class="fit-shell" id="fitShell">
+
+        <!-- Área inteira do carrossel -->
+        <div class="carousel-stage" id="carouselStage">
+
+          <!-- Wrapper que você pode mover para cima/baixo -->
+          <div class="carousel-wrapper">
+
+            <!-- Área 3D -->
+            <div class="carousel-container">
+              <div class="carousel" id="carousel">
+
+                <div class="card" data-name="Leandro Barber">
+                  <div class="card-inner">
+                    <div class="avatar">
+                      <img src="https://i.pravatar.cc/300?img=11" alt="Barbeiro 1" />
+                    </div>
+                    <div class="name">Leandro Zaidan</div>
+                    <div class="role">Corte clássico</div>
+                    <button class="choose-btn" type="button">Escolher</button>
+                  </div>
+                </div>
+
+                <div class="card" data-name="Maria Studio">
+                  <div class="card-inner">
+                    <div class="avatar">
+                      <img src="https://i.pravatar.cc/300?img=12" alt="Barbeiro 2" />
+                    </div>
+                    <div class="name">Maria Studio</div>
+                    <div class="role">Corte + barba</div>
+                    <button class="choose-btn" type="button">Escolher</button>
+                  </div>
+                </div>
+
+                <div class="card" data-name="Carlos Fade">
+                  <div class="card-inner">
+                    <div class="avatar">
+                      <img src="https://i.pravatar.cc/300?img=13" alt="Barbeiro 3" />
+                    </div>
+                    <div class="name">Carlos Fade</div>
+                    <div class="role">Fade / navalhado</div>
+                    <button class="choose-btn" type="button">Escolher</button>
+                  </div>
+                </div>
+
+                <div class="card" data-name="Ana Style">
+                  <div class="card-inner">
+                    <div class="avatar">
+                      <img src="https://i.pravatar.cc/300?img=14" alt="Barbeiro 4" />
+                    </div>
+                    <div class="name">Ana Style</div>
+                    <div class="role">Corte social</div>
+                    <button class="choose-btn" type="button">Escolher</button>
+                  </div>
+                </div>
+
+                <div class="card" data-name="Pedro Line">
+                  <div class="card-inner">
+                    <div class="avatar">
+                      <img src="https://i.pravatar.cc/300?img=15" alt="Barbeiro 5" />
+                    </div>
+                    <div class="name">Pedro Line</div>
+                    <div class="role">Combo premium</div>
+                    <button class="choose-btn" type="button">Escolher</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Controles -->
+            <div class="controls-below">
+              <button class="nav prev" id="prevBtn" aria-label="Anterior">❮</button>
+              <button class="nav next" id="nextBtn" aria-label="Próximo">❯</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <script src="java_script/script.js"></script>
+</body>
+</html>
